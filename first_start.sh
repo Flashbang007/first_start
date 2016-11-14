@@ -8,7 +8,7 @@ fi
 echo "Catching scripts"
 
 cd ~/bin
-wget --no-check-certificate https://raw.githubusercontent.com/Flashbang007/first_start/     master/first_start.txt
+wget --no-check-certificate https://raw.githubusercontent.com/Flashbang007/first_start/master/first_start.txt
 
 for i in `cat ~/bin/first_start.txt`
 do
