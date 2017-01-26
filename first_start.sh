@@ -1,5 +1,12 @@
 #!/bin/bash
 
+if [[ $1 == "-a" ]]; then
+        for i in `cat ~/bin/first_start.txt`
+         do
+                wget $i
+         done
+elif [[ -z $1 ]]; then
+
 if [[ ! -d ~/bin ]]
 then
     mkdir ~/bin
@@ -29,5 +36,10 @@ done
 
 chmod 744 ~/bin/*.sh
 rm ~/bin/first_start.txt
+
+else
+echo "first_start.sh -a for all scrips"
+exit 1
+fi
 
 exit 0
