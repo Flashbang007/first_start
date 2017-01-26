@@ -5,3 +5,4 @@ https://raw.githubusercontent.com/Flashbang007/easy_tcpdump/master/easy_tcpdump.
 https://raw.githubusercontent.com/Flashbang007/connect_to_server/master/connect_to_server.sh
 https://raw.githubusercontent.com/Flashbang007/stop_easy_tcpdump/master/stop_easy_tcpdump.sh
 https://raw.githubusercontent.com/Flashbang007/bind_blocker/master/malewareblocker.sh
+https://raw.githubusercontent.com/Flashbang007/search/master/search.sh
