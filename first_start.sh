@@ -35,7 +35,7 @@ do
 done
 
 chmod 744 ~/bin/*.sh
-rm ~/bin/first_start.txt
+rm ~/bin/first_start.txt*
 
 else
 echo "first_start.sh -a for all scrips"
